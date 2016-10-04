@@ -1,0 +1,171 @@
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: url('../images/fondo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+#main-container {
+	background: #ededed;
+	border-radius: 10px;
+    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.panel-group{
+	background: black;
+	margin-bottom: 0px;
+	height: auto;
+	width: 100%;
+	border-top: 0px solid #DDDDDD;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+h3{
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+	padding: 10px 0 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+
+}
+.footer a {
+	color: #78828D;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+
+#accordion {
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+}
+
+.panel-default > .panel-heading{
+    background: #ed018c;
+}
+
+.panel-heading {
+    padding: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel-title a {
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 7px 15px;
+    font-size: 24px;
+    font-family: Helvetica,Arial,sans-serif;
+    outline: none;
+}
+.panel-body{
+
+	padding-top: 0%;
+	padding-bottom: 0%;
+	position: center;
+}
+
+.panel-title a:hover, .panel-title a:focus, .panel-title a:active {
+    text-decoration: none;
+    outline: none;
+}
+.col-lg-6 {
+  height: 19ex; // Set this height to the appropriate size
+  position: fixed;
+  width: 100%;
+  padding-top: 0px;	
+  padding-left: 9%;
+}
+
+.h-scroll{
+	overflow-y: scroll;
+
+}
+.col-lg-2{
+	margin-right: 0%;
+	padding-left: 5%;
+}
+
+
+.navbar-brand{
+	padding-top: 4%;
+}
+.navbar { 
+	background: #80bd46;
+}
+
+.nav a{
+	font-size: 1.4em;
+}
+@media (max-width: 967px) { 
+    
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+#head-menu{
+	background: blue;
+}
