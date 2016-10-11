@@ -6,7 +6,7 @@
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a data-toggle="collapse" href="#collapseOne" data-parent="#accordion">
-								Clic para ver las sucursales
+								Clic para ver las 5 sucursales
 							</a>
 						</h4>
 					</div>
@@ -19,7 +19,7 @@
 											<h3> Av. Venustiano Carranza </h3>
 										</a>
 										<ul>
-											<li class="x"> Tel. 332 6800 </li>
+											<a href="tel://3123326800"><li class="x"> Tel. 312 332 6800 </li></a>
 											<li> Colima </li>
 										</ul>
 									</div>
@@ -30,7 +30,7 @@
 						                    </h3>
 						                </a>
 						                <ul>
-						                	<li> Tel. 313 6202</li>
+						                	<a href="tel://3123136202"><li> Tel. 312 313 6202</li></a>
 						                	<li> Colima </li>
 						                </ul>
 									</div>
@@ -41,7 +41,7 @@
 		                    				</h3>
 		                    			</a>
 		                    			<ul>
-		                    				<li> Tel. 308 7666</li>
+		                    				<a href="tel://3123087666"><li> Tel. 312 308 7666</li></a>
 		                    				<li> Villa de Álvarez</li>
 		                    			</ul>
 									</div>
@@ -52,8 +52,8 @@
 		                    				</h3>
 		                   				 </a>
 		                   				 <ul>
-		                   				 	<li> Tel 312 1819</li>
-		                   				 	<li>     312 0260</li>
+		                   				 	<a href="tel://3123121819"><li> Tel. 312 312 1819</li></a>
+		                   				 	<a href="tel://3123120260"><li>         312 312 0260</li></a>
 		                   				 	<li> Colima </li>
 		                   				 </ul>
 									</div>
@@ -64,7 +64,7 @@
 		                    				</h3>
 		                    			</a>
 		                    			<ul>
-		                    				<li> Tel. 323 4578</li>
+		                    				<a href="tel://3123234578"><li> Tel. 323 4578</li></a>
 		                    				<li> Colima </li>
 		                    			</ul>
 									</div>

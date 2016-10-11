@@ -3,22 +3,23 @@
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="gole">
 
     <title>Mi Cocina - Siempre rico y saludable</title>
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css");?>"/>
     <!-- Custom CSS -->
-    <link href="assets/css/full.css" rel="stylesheet">
-
-    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/full.css");?>"/>
+        <script src="<?php echo base_url(); ?>assets/js/jquery-3.1.1.min.js" ></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <script language="JavaScript" type="text/javascript" src="assets/js/functionfooter.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js" ></script>
+    <script src="<?php echo base_url(); ?>assets/js/functionfooter.js" ></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
 	<!-- Navigation -->
@@ -32,22 +33,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <img class="hidden-xs" src="assets/images/logohxs.png">
-                    <img class="visible-xs" src="assets/images/logohxs.png">
+                <a class="navbar-brand" href="./">
+                    <img class="hidden-xs" src="<?php base_url(); ?>assets/images/logohxs.png">
+                    <img class="visible-xs" src="<?php base_url(); ?>assets/images/logohxs.png">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Menú</a>
-                    </li>
-                    <li>
-                        <a href="#">Galería</a>
-                    </li>
-                    <li>
-                        <a href="#">Eventos Especiales</a>
+                        <a href="menu">Menú</a>
                     </li>
                     <li>
                         <a href="#">¿Quiénes somos?</a>
